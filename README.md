@@ -1,17 +1,12 @@
-# Gift Given, a simple app to play w/ React Testing
+# Gift Giver
 
 ## Techonologies used
 - create-react-app
 - Enzyme
-  - for working w/ React Components adn DOM
-  - note: enzyme-adapter-react-15 or 16
+  - enzyme-adapter-react-16
 - Jest
-  - unit testing
-    - test runner
-    - assertion library
-    - mocking support
-- React Boostrap
-  - A React component library based on Bootstrap  
+  - assertion lib   
+- React Bootstrap
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
