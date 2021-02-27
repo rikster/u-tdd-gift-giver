@@ -5,8 +5,8 @@
 - Enzyme
   - enzyme-adapter-react-16
 - Jest
-  -
-- React Boostrap
+  - assertion lib   
+- React Bootstrap
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
