@@ -1,5 +1,7 @@
 # Gift Giver
 
+A TDD, BDD React Sandpit
+
 ## Techonologies used
 - create-react-app
 - Enzyme
