@@ -1,4 +1,4 @@
-# Gift Given, a simple app to play w/ React Testing
+# Gift Giver
 
 ## Techonologies used
 - create-react-app
