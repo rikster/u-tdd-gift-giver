@@ -25,4 +25,18 @@ describe('Gift', () => {
       expect(gift.state().person).toEqual(person);
     });
   });
+
+  describe('when typing into the present input', () => {
+    const present = 'Golf Clubs';
+
+    beforeEach(() => {
+      gift
+        .find('.input-present')
+        .simulate('change', { target: { value: present } });
+    });
+
+    it('update the present in `state`', () => {
+      expect(gift.state().present).toEqual(present);
+    });
+  });
 });

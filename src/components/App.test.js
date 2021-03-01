@@ -32,5 +32,9 @@ describe('App', () => {
     it('should add a new gift to the rendered list', function () {
       expect(app.find('.gift-list').children().length).toEqual(1);
     });
+
+    it('should create a gift component', function () {
+      expect(app.find('Gift').exists()).toBe(true);
+    });
   });
 });
